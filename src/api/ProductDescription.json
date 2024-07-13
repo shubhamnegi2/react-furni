@@ -1,0 +1,432 @@
+[
+    {
+        "id": 1,
+        "data": {
+            "Specification": {
+                "name": "Specification",
+                "paragraph": "With supporting text below as a natural lead-in to additional content. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur",
+                "list": [
+                    "Some great feature name here",
+                    "Easy fast and ver good",
+                    "Some great feature name here",
+                    "Modern style and design",
+                    "Lorem ipsum dolor sit amet consectetur",
+                    "Duis aute irure dolor in reprehenderit",
+                    "Optical heart sensor"
+                ],
+                "properties": {
+                    "Display": "13.3-inch LED-backlit display with IPS",
+                    "Processor capacity": "2.3GHz dual-core Intel Core i5",
+                    "Camera quality": "720p FaceTime HD camera",
+                    "Memory": "8 GB RAM or 16 GB RAM",
+                    "Graphics": "Intel Iris Plus Graphics 640"
+                }
+            },
+            "WarrantyInfo": {
+                "name": "Warranty info",
+                "paragraph": "Tab content or sample information now  Lorem ipsum dolor sit amet,  consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+                "list": [],
+                "properties": {}
+            },
+            "ShippingInfo": {
+                "name": "Shipping info",
+                "paragraph": " Another tab content or sample information now  Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "list": [],
+                "properties": {}
+            },
+            "SellerProfile": {
+                "name": "Seller profile",
+                "paragraph": " Some other tab content or sample information now Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "list": [],
+                "properties": {}
+            }
+        }
+    },
+    {
+        "id": 2,
+        "data": {
+            "Specification": {
+                "name": "Specification",
+                "paragraph": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum animi, vero exercitationem quia inventore ab debitis laboriosam beatae. Ipsum, modi quod consectetur vitae veritatis aut facere quis fuga eos ea, quia sed corrupti  Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum animi, vero exercitationem quia inventore ab debitis laboriosam beatae. Ipsum, modi quod consectetur vitae veritatis aut facere quis fuga eos ea, quia sed corrupti ",
+                "list": [
+                    "Some great feature name here",
+                    "Easy fast and ver good",
+                    "Some great feature name here",
+                    "Modern style and design",
+                    "Lorem ipsum dolor sit amet consectetur",
+                    "Duis aute irure dolor in reprehenderit",
+                    "Optical heart sensor"
+                ],
+                "properties": {
+                    "Display": "13.3-inch LED-backlit display with IPS",
+                    "Processor capacity": "2.3GHz dual-core Intel Core i5",
+                    "Camera quality": "720p FaceTime HD camera",
+                    "Memory": "8 GB RAM or 16 GB RAM",
+                    "Graphics": "Intel Iris Plus Graphics 640"
+                }
+            },
+            "WarrantyInfo": {
+                "name": "Warranty info",
+                "paragraph": "consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Tab content or sample information now  Lorem ipsum dolor sit amet,   Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+                "list": [],
+                "properties": {}
+            },
+            "ShippingInfo": {
+                "name": "Shipping info",
+                "paragraph": "sed do eiusmod tempor incididunt ut labore et  Another tab content or sample information now  Dolor sit amet, consectetur adipisicing elit,  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "list": [],
+                "properties": {}
+            },
+            "SellerProfile": {
+                "name": "Seller profile",
+                "paragraph": " Some other tab content or sample information now Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "list": [],
+                "properties": {}
+            }
+        }
+    },
+    {
+        "id": 3,
+        "data": {
+            "Specification": {
+                "name": "Specification",
+                "paragraph": "rem laudantium unde animi voluptas nobis itaque dolorem? Sapiente aliquid, eos voluptatibus, odio iste eligendi eius ex optio aperiam ut omnis quaerat. Odio alias incidunt totam hic vero quia nulla? Mollitia, molestiae commodi. Facilis sint aperiam corporis, rem laudantium unde animi voluptas nobis itaque dolorem? Sapiente aliquid, eos voluptatibus, odio iste eligendi eius ex optio aperiam ut omnis quaerat. Odio alias incidunt totam hic vero quia nulla? Mollitia, molestiae commodi. Facilis sint aperiam corporis,",
+                "list": [
+                    "Some great feature name here",
+                    "Easy fast and ver good",
+                    "Some great feature name here",
+                    "Modern style and design",
+                    "Lorem ipsum dolor sit amet consectetur",
+                    "Duis aute irure dolor in reprehenderit",
+                    "Optical heart sensor"
+                ],
+                "properties": {
+                    "Display": "13.3-inch LED-backlit display with IPS",
+                    "Processor capacity": "2.3GHz dual-core Intel Core i5",
+                    "Camera quality": "720p FaceTime HD camera",
+                    "Memory": "8 GB RAM or 16 GB RAM",
+                    "Graphics": "Intel Iris Plus Graphics 640"
+                }
+            },
+            "WarrantyInfo": {
+                "name": "Warranty info",
+                "paragraph": "Tab content or sample information now  Lorem ipsum dolor sit amet,  consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+                "list": [],
+                "properties": {}
+            },
+            "ShippingInfo": {
+                "name": "Shipping info",
+                "paragraph": " information now  Dolor sit amet, Another tab content or sample  consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "list": [],
+                "properties": {}
+            },
+            "SellerProfile": {
+                "name": "Seller profile",
+                "paragraph": " Some other tab content or sample information now Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "list": [],
+                "properties": {}
+            }
+        }
+    },
+    {
+        "id": 4,
+        "data": {
+            "Specification": {
+                "name": "Specification",
+                "paragraph": "mollitia officia impedit voluptates magnam corrupti reprehenderit doloribus nesciunt inventore quos repellat ullam illum, temporibus ea, labore tempore quasi dicta consequatur? Quaerat, quae eos! Velit, odio! Est mollitia commodi minus. mollitia officia impedit voluptates magnam corrupti reprehenderit doloribus nesciunt inventore quos repellat ullam illum, temporibus ea, labore tempore quasi dicta consequatur? Quaerat, quae eos! Velit, odio! Est mollitia commodi minus.",
+                "list": [
+                    "Some great feature name here",
+                    "Easy fast and ver good",
+                    "Some great feature name here",
+                    "Modern style and design",
+                    "Lorem ipsum dolor sit amet consectetur",
+                    "Duis aute irure dolor in reprehenderit",
+                    "Optical heart sensor"
+                ],
+                "properties": {
+                    "Display": "13.3-inch LED-backlit display with IPS",
+                    "Processor capacity": "2.3GHz dual-core Intel Core i5",
+                    "Camera quality": "720p FaceTime HD camera",
+                    "Memory": "8 GB RAM or 16 GB RAM",
+                    "Graphics": "Intel Iris Plus Graphics 640"
+                }
+            },
+            "WarrantyInfo": {
+                "name": "Warranty info",
+                "paragraph": "Tab content or sample information now  Lorem ipsum dolor sit amet,  consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+                "list": [],
+                "properties": {}
+            },
+            "ShippingInfo": {
+                "name": "Shipping info",
+                "paragraph": " Another tab content or sample information now  Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "list": [],
+                "properties": {}
+            },
+            "SellerProfile": {
+                "name": "Seller profile",
+                "paragraph": " Some other tab content or sample information now Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "list": [],
+                "properties": {}
+            }
+        }
+    },
+    {
+        "id": 5,
+        "data": {
+            "Specification": {
+                "name": "Specification",
+                "paragraph": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum fugiat voluptatem exercitationem veniam obcaecati tempore doloremque, consequatur repudiandae excepturi sapiente. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum fugiat voluptatem exercitationem veniam obcaecati tempore doloremque, consequatur repudiandae excepturi sapiente.",
+                "list": [
+                    "Some great feature name here",
+                    "Easy fast and ver good",
+                    "Some great feature name here",
+                    "Modern style and design",
+                    "Lorem ipsum dolor sit amet consectetur",
+                    "Duis aute irure dolor in reprehenderit",
+                    "Optical heart sensor"
+                ],
+                "properties": {
+                    "Display": "13.3-inch LED-backlit display with IPS",
+                    "Processor capacity": "2.3GHz dual-core Intel Core i5",
+                    "Camera quality": "720p FaceTime HD camera",
+                    "Memory": "8 GB RAM or 16 GB RAM",
+                    "Graphics": "Intel Iris Plus Graphics 640"
+                }
+            },
+            "WarrantyInfo": {
+                "name": "Warranty info",
+                "paragraph": "Tab content or sample information now  Lorem ipsum dolor sit amet,  consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+                "list": [],
+                "properties": {}
+            },
+            "ShippingInfo": {
+                "name": "Shipping info",
+                "paragraph": " Another tab content or sample information now  Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "list": [],
+                "properties": {}
+            },
+            "SellerProfile": {
+                "name": "Seller profile",
+                "paragraph": " Some other tab content or sample information now Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "list": [],
+                "properties": {}
+            }
+        }
+    },
+    {
+        "id": 6,
+        "data": {
+            "Specification": {
+                "name": "Specification",
+                "paragraph": "With supporting text below as a natural lead-in to additional content. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur",
+                "list": [
+                    "Some great feature name here",
+                    "Easy fast and ver good",
+                    "Some great feature name here",
+                    "Modern style and design",
+                    "Lorem ipsum dolor sit amet consectetur",
+                    "Duis aute irure dolor in reprehenderit",
+                    "Optical heart sensor"
+                ],
+                "properties": {
+                    "Display": "13.3-inch LED-backlit display with IPS",
+                    "Processor capacity": "2.3GHz dual-core Intel Core i5",
+                    "Camera quality": "720p FaceTime HD camera",
+                    "Memory": "8 GB RAM or 16 GB RAM",
+                    "Graphics": "Intel Iris Plus Graphics 640"
+                }
+            },
+            "WarrantyInfo": {
+                "name": "Warranty info",
+                "paragraph": "Tab content or sample information now  Lorem ipsum dolor sit amet,  consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+                "list": [],
+                "properties": {}
+            },
+            "ShippingInfo": {
+                "name": "Shipping info",
+                "paragraph": " Another tab content or sample information now  Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "list": [],
+                "properties": {}
+            },
+            "SellerProfile": {
+                "name": "Seller profile",
+                "paragraph": " Some other tab content or sample information now Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "list": [],
+                "properties": {}
+            }
+        }
+    },
+    {
+        "id": 7,
+        "data": {
+            "Specification": {
+                "name": "Specification",
+                "paragraph": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum animi, vero exercitationem quia inventore ab debitis laboriosam beatae. Ipsum, modi quod consectetur vitae veritatis aut facere quis fuga eos ea, quia sed corrupti  Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum animi, vero exercitationem quia inventore ab debitis laboriosam beatae. Ipsum, modi quod consectetur vitae veritatis aut facere quis fuga eos ea, quia sed corrupti ",
+                "list": [
+                    "Some great feature name here",
+                    "Easy fast and ver good",
+                    "Some great feature name here",
+                    "Modern style and design",
+                    "Lorem ipsum dolor sit amet consectetur",
+                    "Duis aute irure dolor in reprehenderit",
+                    "Optical heart sensor"
+                ],
+                "properties": {
+                    "Display": "13.3-inch LED-backlit display with IPS",
+                    "Processor capacity": "2.3GHz dual-core Intel Core i5",
+                    "Camera quality": "720p FaceTime HD camera",
+                    "Memory": "8 GB RAM or 16 GB RAM",
+                    "Graphics": "Intel Iris Plus Graphics 640"
+                }
+            },
+            "WarrantyInfo": {
+                "name": "Warranty info",
+                "paragraph": "consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Tab content or sample information now  Lorem ipsum dolor sit amet,   Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+                "list": [],
+                "properties": {}
+            },
+            "ShippingInfo": {
+                "name": "Shipping info",
+                "paragraph": "sed do eiusmod tempor incididunt ut labore et  Another tab content or sample information now  Dolor sit amet, consectetur adipisicing elit,  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "list": [],
+                "properties": {}
+            },
+            "SellerProfile": {
+                "name": "Seller profile",
+                "paragraph": " Some other tab content or sample information now Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "list": [],
+                "properties": {}
+            }
+        }
+    },
+    {
+        "id": 8,
+        "data": {
+            "Specification": {
+                "name": "Specification",
+                "paragraph": "rem laudantium unde animi voluptas nobis itaque dolorem? Sapiente aliquid, eos voluptatibus, odio iste eligendi eius ex optio aperiam ut omnis quaerat. Odio alias incidunt totam hic vero quia nulla? Mollitia, molestiae commodi. Facilis sint aperiam corporis, rem laudantium unde animi voluptas nobis itaque dolorem? Sapiente aliquid, eos voluptatibus, odio iste eligendi eius ex optio aperiam ut omnis quaerat. Odio alias incidunt totam hic vero quia nulla? Mollitia, molestiae commodi. Facilis sint aperiam corporis,",
+                "list": [
+                    "Some great feature name here",
+                    "Easy fast and ver good",
+                    "Some great feature name here",
+                    "Modern style and design",
+                    "Lorem ipsum dolor sit amet consectetur",
+                    "Duis aute irure dolor in reprehenderit",
+                    "Optical heart sensor"
+                ],
+                "properties": {
+                    "Display": "13.3-inch LED-backlit display with IPS",
+                    "Processor capacity": "2.3GHz dual-core Intel Core i5",
+                    "Camera quality": "720p FaceTime HD camera",
+                    "Memory": "8 GB RAM or 16 GB RAM",
+                    "Graphics": "Intel Iris Plus Graphics 640"
+                }
+            },
+            "WarrantyInfo": {
+                "name": "Warranty info",
+                "paragraph": "Tab content or sample information now  Lorem ipsum dolor sit amet,  consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+                "list": [],
+                "properties": {}
+            },
+            "ShippingInfo": {
+                "name": "Shipping info",
+                "paragraph": " information now  Dolor sit amet, Another tab content or sample  consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "list": [],
+                "properties": {}
+            },
+            "SellerProfile": {
+                "name": "Seller profile",
+                "paragraph": " Some other tab content or sample information now Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "list": [],
+                "properties": {}
+            }
+        }
+    },
+    {
+        "id": 9,
+        "data": {
+            "Specification": {
+                "name": "Specification",
+                "paragraph": "mollitia officia impedit voluptates magnam corrupti reprehenderit doloribus nesciunt inventore quos repellat ullam illum, temporibus ea, labore tempore quasi dicta consequatur? Quaerat, quae eos! Velit, odio! Est mollitia commodi minus. mollitia officia impedit voluptates magnam corrupti reprehenderit doloribus nesciunt inventore quos repellat ullam illum, temporibus ea, labore tempore quasi dicta consequatur? Quaerat, quae eos! Velit, odio! Est mollitia commodi minus.",
+                "list": [
+                    "Some great feature name here",
+                    "Easy fast and ver good",
+                    "Some great feature name here",
+                    "Modern style and design",
+                    "Lorem ipsum dolor sit amet consectetur",
+                    "Duis aute irure dolor in reprehenderit",
+                    "Optical heart sensor"
+                ],
+                "properties": {
+                    "Display": "13.3-inch LED-backlit display with IPS",
+                    "Processor capacity": "2.3GHz dual-core Intel Core i5",
+                    "Camera quality": "720p FaceTime HD camera",
+                    "Memory": "8 GB RAM or 16 GB RAM",
+                    "Graphics": "Intel Iris Plus Graphics 640"
+                }
+            },
+            "WarrantyInfo": {
+                "name": "Warranty info",
+                "paragraph": "Tab content or sample information now  Lorem ipsum dolor sit amet,  consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+                "list": [],
+                "properties": {}
+            },
+            "ShippingInfo": {
+                "name": "Shipping info",
+                "paragraph": " Another tab content or sample information now  Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "list": [],
+                "properties": {}
+            },
+            "SellerProfile": {
+                "name": "Seller profile",
+                "paragraph": " Some other tab content or sample information now Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "list": [],
+                "properties": {}
+            }
+        }
+    },
+    {
+        "id": 10,
+        "data": {
+            "Specification": {
+                "name": "Specification",
+                "paragraph": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum fugiat voluptatem exercitationem veniam obcaecati tempore doloremque, consequatur repudiandae excepturi sapiente. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum fugiat voluptatem exercitationem veniam obcaecati tempore doloremque, consequatur repudiandae excepturi sapiente.",
+                "list": [
+                    "Some great feature name here",
+                    "Easy fast and ver good",
+                    "Some great feature name here",
+                    "Modern style and design",
+                    "Lorem ipsum dolor sit amet consectetur",
+                    "Duis aute irure dolor in reprehenderit",
+                    "Optical heart sensor"
+                ],
+                "properties": {
+                    "Display": "13.3-inch LED-backlit display with IPS",
+                    "Processor capacity": "2.3GHz dual-core Intel Core i5",
+                    "Camera quality": "720p FaceTime HD camera",
+                    "Memory": "8 GB RAM or 16 GB RAM",
+                    "Graphics": "Intel Iris Plus Graphics 640"
+                }
+            },
+            "WarrantyInfo": {
+                "name": "Warranty info",
+                "paragraph": "Tab content or sample information now  Lorem ipsum dolor sit amet,  consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+                "list": [],
+                "properties": {}
+            },
+            "ShippingInfo": {
+                "name": "Shipping info",
+                "paragraph": " Another tab content or sample information now  Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "list": [],
+                "properties": {}
+            },
+            "SellerProfile": {
+                "name": "Seller profile",
+                "paragraph": " Some other tab content or sample information now Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "list": [],
+                "properties": {}
+            }
+        }
+    }
+]
