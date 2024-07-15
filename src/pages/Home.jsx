@@ -7,6 +7,7 @@ import WeHelp from '../components/home/WeHelp'
 import PopularProduct from '../components/home/PopularProduct'
 import Testimonials from '../components/home/Testimonials'
 import BlogSec from '../components/home/BlogSec'
+import homeImg from '/react-furni/images/couch.png'
 export default function Home() {
     const bannerData = {
         heading: 'Modern Interior',
@@ -16,7 +17,7 @@ export default function Home() {
             { text: 'Shop Now', path: '/shop', className: 'btn btn-secondary me-2' },
             { text: 'Explore', path: '/shop', className: 'btn btn-white-outline' }
         ],
-        image: '/react-furni/images/couch.png'
+        image: homeImg
     };
     useEffect(() => {
         window.scrollTo(0, 0);

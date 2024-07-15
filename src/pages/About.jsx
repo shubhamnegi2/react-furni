@@ -3,6 +3,11 @@ import Banner from '../components/home/Banner';
 import WhyChooseUs from '../components/home/WhyChooseUs';
 import Testimonials from '../components/home/Testimonials';
 import OurTeam from '../components/About/OurTeam';
+import homeImg from '/react-furni/images/couch.png'
+import imgSrc1 from "/react-furni/images/person_1.jpg",
+import imgSrc2 from "/react-furni/images/person_2.jpg",
+import imgSrc3 from "/react-furni/images/person_3.jpg",
+import imgSrc4 from "/react-furni/images/person_4.jpg",
 export default function About() {
   const bannerData = {
     heading: 'About Us',
@@ -12,11 +17,11 @@ export default function About() {
       { text: 'Shop Now', path: '/shop', className: 'btn btn-secondary me-2' },
       { text: 'Explore', path: '/shop', className: 'btn btn-white-outline' }
     ],
-    image: '/react-furni/images/couch.png'
+    image: homeImg
   };
   const TeamData = [
     {
-      imgSrc: "/react-furni/images/person_1.jpg",
+      imgSrc: imgSrc1,
       name: "Lawson Arnold",
       position: "CEO, Founder, Atty.",
       description: "Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.",
@@ -24,7 +29,7 @@ export default function About() {
       linkHref: "#"
     },
     {
-      imgSrc: "/react-furni/images/person_2.jpg",
+      imgSrc: imgSrc2,
       name: "Jeremy Walker",
       position: "CEO, Founder, Atty.",
       description: "Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.",
@@ -32,7 +37,7 @@ export default function About() {
       linkHref: "#"
     },
     {
-      imgSrc: "/react-furni/images/person_3.jpg",
+      imgSrc: imgSrc3,
       name: "Patrik White",
       position: "CEO, Founder, Atty.",
       description: "Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.",
@@ -40,7 +45,7 @@ export default function About() {
       linkHref: "#"
     },
     {
-      imgSrc: "/react-furni/images/person_4.jpg",
+      imgSrc: imgSrc4,
       name: "Kathryn Ryan",
       position: "CEO, Founder, Atty.",
       description: "Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.",
