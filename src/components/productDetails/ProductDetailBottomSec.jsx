@@ -19,7 +19,7 @@ export default function ProductDetailBottomSec({ categoryData }) {
     };
 
     useEffect(() => {
-        fetch('/src/api/ProductDescription.json')
+        fetch('https://shubhamnegi2.github.io/textAPi/api/ProductDescription.json')
             .then(res => res.json())
             .then(dt => setDesc(dt))
             window.scrollTo(0, 0);

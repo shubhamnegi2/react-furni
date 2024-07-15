@@ -8,7 +8,7 @@ export default function Cart() {
     const [productData, setProductDate] = useState([])
     const [hasData, setHasData] = useState(false)
     useEffect(() => {
-        fetch('/src/api/Product.json')
+        fetch('https://shubhamnegi2.github.io/textAPi/api/product.json')
             .then((res) => res.json())
             .then(data => setProductDate(data))
         window.scrollTo(0, 0);

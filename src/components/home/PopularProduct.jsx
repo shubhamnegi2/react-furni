@@ -9,7 +9,7 @@ export default function PopularProduct() {
         loadData()
     }, [])
     const loadData = () => {
-        fetch('/src/api/ProductDetails.json')
+        fetch('https://shubhamnegi2.github.io/textAPi/api/ProductDetails.json')
             .then(res => res.json())
             .then(data => setData(data))
             .catch(error => console.error('Error fetching product data:', error))

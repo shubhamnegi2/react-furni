@@ -6,7 +6,7 @@ import plusImg from '../../assets/images/cross.svg'
 export default function Product() {
     const [productData, setProductDate] = useState([])
     useEffect(() => {
-        fetch('/src/api/Product.json')
+        fetch('https://shubhamnegi2.github.io/textAPi/api/product.json')
             .then((res) => res.json())
             .then(data => setProductDate(data))
     }, [])

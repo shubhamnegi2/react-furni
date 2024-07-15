@@ -13,7 +13,7 @@ export default function ProductDetails() {
     const [productName, setProductName] = useState()
     const [productCategory, setProductCategory] = useState()
     const loadData = () => {
-        fetch('/src/api/ProductDetails.json')
+        fetch('https://shubhamnegi2.github.io/textAPi/api/ProductDetails.json')
             .then(res => res.json())
             .then(data => setAllProductData(data))
             .catch(error => console.error('Error fetching product data:', error))
