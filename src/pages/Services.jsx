@@ -13,46 +13,46 @@ export default function Services() {
             { text: 'Shop Now', path: '/shop', className: 'btn btn-secondary me-2' },
             { text: 'Explore', path: '/shop', className: 'btn btn-white-outline' }
         ],
-        image: 'src/assets/images/couch.png'
+        image: '/images/couch.png'
     };
     const OurServices = [
         {
-            icon: "src/assets/images/truck.svg",
+            icon: "/images//truck.svg",
             title: "Fast & Free Shipping",
             description: "Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate."
         },
         {
-            icon: "src/assets/images/bag.svg",
+            icon: "/images//bag.svg",
             title: "Easy to Shop",
             description: "Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate."
         },
         {
-            icon: "src/assets/images/support.svg",
+            icon: "/images//support.svg",
             title: "24/7 Support",
             description: "Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate."
         },
         {
-            icon: "src/assets/images/return.svg",
+            icon: "/images//return.svg",
             title: "Hassle Free Returns",
             description: "Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate."
         },
         {
-            icon: "src/assets/images/truck.svg",
+            icon: "/images//truck.svg",
             title: "Fast & Free Shipping",
             description: "Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate."
         },
         {
-            icon: "src/assets/images/bag.svg",
+            icon: "/images//bag.svg",
             title: "Easy to Shop",
             description: "Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate."
         },
         {
-            icon: "src/assets/images/support.svg",
+            icon: "/images//support.svg",
             title: "24/7 Support",
             description: "Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate."
         },
         {
-            icon: "src/assets/images/return.svg",
+            icon: "/images//return.svg",
             title: "Hassle Free Returns",
             description: "Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate."
         }

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { NavLink } from 'react-router-dom'
 import { useContext } from 'react';
 import CartContex from '../contex/CartContex';
-import plusImg from '../assets/images/cross.svg'
+import plusImg from '/images/cross.svg'
 
 export default function Shop() {
     const [allProductData, setAllProductData] = useState([])

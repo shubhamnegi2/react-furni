@@ -14,7 +14,7 @@ export default function Blog() {
             { text: 'Shop Now', path: '/shop', className: 'btn btn-secondary me-2' },
             { text: 'Explore', path: '/shop', className: 'btn btn-white-outline' }
         ],
-        image: 'src/assets/images/couch.png'
+        image: '/images/couch.png'
     };
     const blogData = [
         {
