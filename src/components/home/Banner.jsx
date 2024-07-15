@@ -1,5 +1,5 @@
 import React from 'react'
-import image from '/images/couch.png'
+import image from '/react-furni/images/couch.png'
 import { NavLink } from 'react-router-dom'
 export default function Banner({ data }) {
     

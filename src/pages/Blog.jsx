@@ -14,59 +14,59 @@ export default function Blog() {
             { text: 'Shop Now', path: '/shop', className: 'btn btn-secondary me-2' },
             { text: 'Explore', path: '/shop', className: 'btn btn-white-outline' }
         ],
-        image: '/images/couch.png'
+        image: '/react-furni/images/couch.png'
     };
     const blogData = [
         {
-            image: "src/assets/images/post-1.jpg",
+            image: "/react-furni/images/post-1.jpg",
             title: "First Time Home Owner Ideas",
             author: "Kristin Watson",
             date: "Dec 19, 2021"
         },
         {
-            image: "src/assets/images/post-2.jpg",
+            image: "/react-furni/images/post-2.jpg",
             title: "How To Keep Your Furniture Clean",
             author: "Robert Fox",
             date: "Dec 15, 2021"
         },
         {
-            image: "src/assets/images/post-3.jpg",
+            image: "/react-furni/images/post-3.jpg",
             title: "Small Space Furniture Apartment Ideas",
             author: "Kristin Watson",
             date: "Dec 12, 2021"
         },
         {
-            image: "src/assets/images/post-1.jpg",
+            image: "/react-furni/images/post-1.jpg",
             title: "First Time Home Owner Ideas",
             author: "Kristin Watson",
             date: "Dec 19, 2021"
         },
         {
-            image: "src/assets/images/post-2.jpg",
+            image: "/react-furni/images/post-2.jpg",
             title: "How To Keep Your Furniture Clean",
             author: "Robert Fox",
             date: "Dec 15, 2021"
         },
         {
-            image: "src/assets/images/post-3.jpg",
+            image: "/react-furni/images/post-3.jpg",
             title: "Small Space Furniture Apartment Ideas",
             author: "Kristin Watson",
             date: "Dec 12, 2021"
         },
         {
-            image: "src/assets/images/post-1.jpg",
+            image: "/react-furni/images/post-1.jpg",
             title: "First Time Home Owner Ideas",
             author: "Kristin Watson",
             date: "Dec 19, 2021"
         },
         {
-            image: "src/assets/images/post-2.jpg",
+            image: "/react-furni/images/post-2.jpg",
             title: "How To Keep Your Furniture Clean",
             author: "Robert Fox",
             date: "Dec 15, 2021"
         },
         {
-            image: "src/assets/images/post-3.jpg",
+            image: "/react-furni/images/post-3.jpg",
             title: "Small Space Furniture Apartment Ideas",
             author: "Kristin Watson",
             date: "Dec 12, 2021"

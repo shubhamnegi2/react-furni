@@ -16,7 +16,7 @@ export default function Home() {
             { text: 'Shop Now', path: '/shop', className: 'btn btn-secondary me-2' },
             { text: 'Explore', path: '/shop', className: 'btn btn-white-outline' }
         ],
-        image: '/images/couch.png'
+        image: '/react-furni/images/couch.png'
     };
     useEffect(() => {
         window.scrollTo(0, 0);

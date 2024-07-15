@@ -2,9 +2,9 @@ import React from 'react'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import person1 from '/images/person_1.jpg'
-import person2 from '/images/person_2.jpg'
-import person3 from '/images/person_3.jpg'
+import person1 from '/react-furni/images/person_1.jpg'
+import person2 from '/react-furni/images/person_2.jpg'
+import person3 from '/react-furni/images/person_3.jpg'
 
 
 

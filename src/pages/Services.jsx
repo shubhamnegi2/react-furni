@@ -4,11 +4,11 @@ import Product from '../components/home/Product';
 import Testimonials from '../components/home/Testimonials';
 import Banner from '../components/home/Banner';
 
-import couchImage from '/images/couch.png';
-import truckIcon from '/images/truck.svg';
-import bagIcon from '/images/bag.svg';
-import supportIcon from '/images/support.svg';
-import returnIcon from '/images/return.svg';
+import couchImage from '/react-furni/images/couch.png';
+import truckIcon from '/react-furni/images/truck.svg';
+import bagIcon from '/react-furni/images/bag.svg';
+import supportIcon from '/react-furni/images/support.svg';
+import returnIcon from '/react-furni/images/return.svg';
 
 export default function Services() {
   const bannerData = {

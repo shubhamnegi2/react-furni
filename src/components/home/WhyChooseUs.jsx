@@ -1,9 +1,9 @@
 import React from 'react'
-import truck from '/images/truck.svg'
-import bag from '/images/bag.svg'
-import support from '/images/bag.svg'
-import returnImg from '/images/bag.svg'
-import whyChooseUs from '/images/why-choose-us-img.jpg'
+import truck from '/react-furni/images/truck.svg'
+import bag from '/react-furni/images/bag.svg'
+import support from '/react-furni/images/bag.svg'
+import returnImg from '/react-furni/images/bag.svg'
+import whyChooseUs from '/react-furni/images/why-choose-us-img.jpg'
 
 
 export default function WhyChooseUs() {

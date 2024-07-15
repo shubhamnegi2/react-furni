@@ -1,7 +1,7 @@
 import React from 'react'
 
-import sofaImg from '/images/sofa.png'
-import envelopeUutline from '/images/envelope-outline.svg'
+import sofaImg from '/react-furni/images/sofa.png'
+import envelopeUutline from '/react-furni/images/envelope-outline.svg'
 import { NavLink } from 'react-router-dom'
 export default function Footer() {
     return (

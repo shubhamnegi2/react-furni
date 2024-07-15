@@ -12,11 +12,11 @@ export default function About() {
       { text: 'Shop Now', path: '/shop', className: 'btn btn-secondary me-2' },
       { text: 'Explore', path: '/shop', className: 'btn btn-white-outline' }
     ],
-    image: '/images/couch.png'
+    image: '/react-furni/images/couch.png'
   };
   const TeamData = [
     {
-      imgSrc: "src/assets/images/person_1.jpg",
+      imgSrc: "/react-furni/images/person_1.jpg",
       name: "Lawson Arnold",
       position: "CEO, Founder, Atty.",
       description: "Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.",
@@ -24,7 +24,7 @@ export default function About() {
       linkHref: "#"
     },
     {
-      imgSrc: "src/assets/images/person_2.jpg",
+      imgSrc: "/react-furni/images/person_2.jpg",
       name: "Jeremy Walker",
       position: "CEO, Founder, Atty.",
       description: "Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.",
@@ -32,7 +32,7 @@ export default function About() {
       linkHref: "#"
     },
     {
-      imgSrc: "src/assets/images/person_3.jpg",
+      imgSrc: "/react-furni/images/person_3.jpg",
       name: "Patrik White",
       position: "CEO, Founder, Atty.",
       description: "Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.",
@@ -40,7 +40,7 @@ export default function About() {
       linkHref: "#"
     },
     {
-      imgSrc: "src/assets/images/person_4.jpg",
+      imgSrc: "/react-furni/images/person_4.jpg",
       name: "Kathryn Ryan",
       position: "CEO, Founder, Atty.",
       description: "Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.",
