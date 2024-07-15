@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
-import product1 from '../../assets/images/product-1.png'
-import product2 from '../../assets/images/product-2.png'
-import product3 from '../../assets/images/product-3.png'
+import product1 from '/images/product-1.png'
+import product2 from '/images/product-2.png'
+import product3 from '/images/product-3.png'
 import { NavLink } from 'react-router-dom'
 export default function PopularProduct() {
     const [data, setData] = useState([])

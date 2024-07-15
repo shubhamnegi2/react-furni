@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react'
 import '../index.css'
-import profileIcon from '../assets/images/profileIcon.png'
-import congratulations from '../assets/images/congratulations.gif'
+import profileIcon from '/images/profileIcon.png'
+import congratulations from '/images/congratulations.gif'
 import { NavLink, useNavigate } from 'react-router-dom'
 import { useFormik } from 'formik';
 import * as Yup from 'yup';

@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import '../index.css'
-import profileIcon from '../assets/images/profileIcon.png'
+import profileIcon from '/images/profileIcon.png'
 import { NavLink } from 'react-router-dom'
 import { useFormik } from 'formik';
 import * as Yup from 'yup'

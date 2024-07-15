@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react'
 import { NavLink } from 'react-router-dom'
 import CartContex from '../../contex/CartContex'
-import plusImg from '../../assets/images/cross.svg'
+import plusImg from '/images/cross.svg'
 
 export default function Product() {
     const [productData, setProductDate] = useState([])

@@ -1,8 +1,8 @@
 import React from 'react'
 
-import post1 from '../../assets/images/post-1.jpg'
-import post2 from '../../assets/images/post-2.jpg'
-import post3 from '../../assets/images/post-3.jpg'
+import post1 from '/images/post-1.jpg'
+import post2 from '/images/post-2.jpg'
+import post3 from '/images/post-3.jpg'
 
 export default function BlogSec() {
     return (

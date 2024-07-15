@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react'
 import { NavLink, useLocation } from 'react-router-dom'
-import userImg from '../../assets/images/user.svg'
-import cartImg from '../../assets/images/cart.svg'
+import userImg from '/images/user.svg'
+import cartImg from '/images/cart.svg'
 import CartContex from '../../contex/CartContex'
 export default function Header() {
     const [showNav, setShowNav] = useState(false)
