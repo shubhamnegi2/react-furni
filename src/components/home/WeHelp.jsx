@@ -1,7 +1,7 @@
 import React from 'react'
-import imgGrid1 from '/react-furni/images/img-grid-1.jpg'
-import imgGrid2 from '/react-furni/images/img-grid-2.jpg'
-import imgGrid3 from '/react-furni/images/img-grid-3.jpg'
+import imgGrid1 from '/images/img-grid-1.jpg'
+import imgGrid2 from '/images/img-grid-2.jpg'
+import imgGrid3 from '/images/img-grid-3.jpg'
 import { NavLink } from 'react-router-dom'
 
 export default function WeHelp() {
