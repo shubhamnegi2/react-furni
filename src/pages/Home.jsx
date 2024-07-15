@@ -7,7 +7,7 @@ import WeHelp from '../components/home/WeHelp'
 import PopularProduct from '../components/home/PopularProduct'
 import Testimonials from '../components/home/Testimonials'
 import BlogSec from '../components/home/BlogSec'
-import homeImg from '/react-furni/images/couch.png'
+import homeImg from '/images/couch.png'
 export default function Home() {
     const bannerData = {
         heading: 'Modern Interior',

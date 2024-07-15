@@ -2,16 +2,16 @@ import React, { useEffect } from 'react'
 
 import BlogCards from '../components/Blog/BlogCards';
 import Banner from '../components/home/Banner';
-import couch from '/react-furni/images/couch.png';
-import post1 from "/react-furni/images/post-1.jpg",
-import post2 from "/react-furni/images/post-2.jpg",
-import post3 from "/react-furni/images/post-3.jpg",
-import post4 from "/react-furni/images/post-1.jpg",
-import post5 from "/react-furni/images/post-2.jpg",
-import post6 from "/react-furni/images/post-3.jpg",
-import post7 from "/react-furni/images/post-1.jpg",
-import post8 from "/react-furni/images/post-2.jpg",
-import post9 from "/react-furni/images/post-3.jpg",
+import couch from '/images/couch.png';
+import post1 from "/images/post-1.jpg";
+import post2 from "/images/post-2.jpg";
+import post3 from "/images/post-3.jpg";
+import post4 from "/images/post-1.jpg";
+import post5 from "/images/post-2.jpg";
+import post6 from "/images/post-3.jpg";
+import post7 from "/images/post-1.jpg";
+import post8 from "/images/post-2.jpg";
+import post9 from "/images/post-3.jpg";
 export default function Blog() {
     useEffect(() => {
         window.scrollTo(0, 0);
