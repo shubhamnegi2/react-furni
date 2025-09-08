@@ -4,7 +4,8 @@ import { NavLink } from 'react-router-dom';
 
 export default function Cart() {
     const { cart, setCart } = useContext(CartContex);
-    const [quantity, setQuantity] = useState(1)
+    const [subtotal, setSubtotal] = useState(0)
+    // const [quantity, setQuantity] = useState()
     const [productData, setProductDate] = useState([])
     const [hasData, setHasData] = useState(false)
     useEffect(() => {
@@ -18,11 +19,27 @@ export default function Cart() {
         productData.map(item => (
             cart.ids.includes(item.id) ? setHasData(true) : ""
         ))
+
     }, [productData])
 
     useEffect(() => {
         window.scrollTo(0, 0);
-      }, [])
+    }, [])
+
+    useEffect(() => {
+        getSubtotal();
+    }, [cart, productData])
+    const getSubtotal = () => {
+        console.log('cart updated');
+        let total = 0;
+        cart.quantities.forEach(item => {
+            const product = productData.find(data => data.id === item.id);
+            if (product) {
+                total += item.quantity * product.price;
+            }
+        });
+        setSubtotal(total.toFixed(2));
+    }
     const removeCartItem = (id) => {
         setCart(prev => (
             {
@@ -34,43 +51,44 @@ export default function Cart() {
         console.log('cart removed', cart);
     }
     const increase = (id) => {
-        quantity >= 999 ? setQuantity(999) : setQuantity(prev => (parseInt(prev) + 1))
-        quantity < 999 ? setCart(prev => {
-            return {
-                ...prev,
-                quantities: prev.quantities.map(item =>
-                    item.id === id ? { "id": id, "quantity": item.quantity + 1 } : { ...item }
-                )
-            }
-        }) : setQuantity(999)
-        console.log('cart quantities', cart.quantities)
-    }
+        setCart(prev => ({
+            ...prev,
+            quantities: prev.quantities.map(item =>
+                item.id === id
+                    ? { id: id, quantity: Math.min(item.quantity + 1, 999) }
+                    : item
+            )
+        }));
+    };
 
     const decrease = (id) => {
-        quantity <= 0 ? setQuantity(1) : setQuantity(prev => (parseInt(prev) - 1))
-        quantity > 1 ? setCart(prev => {
-            return {
-                ...prev,
-                quantities: prev.quantities.map(item =>
-                    item.id === id ? { ...item, quantity: item.quantity - 1 } : { ...item }
-                )
-            }
-        }) : setQuantity(1)
+        setCart(prev => ({
+            ...prev,
+            quantities: prev.quantities.map(item =>
+                item.id === id
+                    ? { id: id, quantity: Math.max(item.quantity - 1, 1) }
+                    : item
+            )
+        }));
     };
 
     const storeQuantity = (id, val) => {
-        setCart(prev => {
-            return {
-                ...prev,
-                quantities: prev.quantities.map(item =>
-                    item.id === id ? { "id": id, "quantity" : parseInt(val) } : { ...item }
-                )
-            }
-        })
-    }
-   
-    
-    
+        let quantity = parseInt(val);
+        if (isNaN(quantity)) quantity = 1;
+
+        setCart(prev => ({
+            ...prev,
+            quantities: prev.quantities.map(item =>
+                item.id === id
+                    ? { id: id, quantity: Math.min(Math.max(quantity, 1), 999) }  // Ensure between 1 and 999
+                    : item
+            )
+        }));
+    };
+
+
+
+
 
     return (
         <>
@@ -95,18 +113,18 @@ export default function Cart() {
                                             {
                                                 productData.map(item => (
                                                     cart.ids.includes(item.id) ? (
-                                                        <tr key={item.id+'ghnm'}>
+                                                        <tr key={item.id + 'ghnm'}>
                                                             <td className="product-thumbnail">
-                                                             <NavLink to={`/productDetails/${item.id}`}>   <img src={item.image} alt="Image" width="100" className="img-fluid" /> </NavLink>
+                                                                <NavLink to={`/productDetails/${item.id}`}>   <img src={item.image} alt="Image" width="100" className="img-fluid" /> </NavLink>
                                                             </td>
                                                             <td className="product-name">
-                                                            <NavLink to={`/productDetails/${item.id}`}>   <p className=" text-black"> {item.title.length > 30 ? `${item.title.slice(0, 30)}...` : item.title}</p> </NavLink>
+                                                                <NavLink to={`/productDetails/${item.id}`}>   <p className=" text-black"> {item.title.length > 30 ? `${item.title.slice(0, 30)}...` : item.title}</p> </NavLink>
                                                             </td>
                                                             <td>${item.price}</td>
 
                                                             {cart.quantities.map(elem => (
                                                                 elem.id === item.id ? <>
-                                                                    <td>
+                                                                    <td key={elem.id + 'gdf'}>
                                                                         <div className="input-group mb-3 d-flex align-items-center quantity-container" style={{ maxWidth: '120px' }}>
                                                                             <div onClick={() => decrease(elem.id)} className="input-group-prepend">
                                                                                 <button className="btn btn-outline-black decrease" type="button"> - </button>
@@ -136,14 +154,16 @@ export default function Cart() {
                             </form> : <h2 className='text-center bg-white p-5' style={{ fontWeight: 'bold', borderRadius: "5px" }}>Cart Is Empty</h2>}
                     </div>
 
-                    <div className="row">
+                    <div className="row align-items-end">
                         <div className="col-md-6">
                             <div className="row mb-5">
-                                <div className="col-md-6 mb-3 mb-md-0">
+                                {/* <div className="col-md-6 mb-3 mb-md-0">
                                     <button className="btn btn-black btn-sm btn-block">Update Cart</button>
-                                </div>
+                                </div> */}
                                 <div className="col-md-6">
-                                    <button className="btn btn-outline-black btn-sm btn-block">Continue Shopping</button>
+                                    <NavLink to={`/shop`}>
+                                        <button className="btn btn-outline-black btn-sm btn-block">Continue Shopping</button>
+                                    </NavLink>
                                 </div>
                             </div>
                             <div className="row">
@@ -151,10 +171,10 @@ export default function Cart() {
                                     <label className="text-black h4" for="coupon">Coupon</label>
                                     <p>Enter your coupon code if you have one.</p>
                                 </div>
-                                <div className="col-md-8 mb-3 mb-md-0">
+                                <div className="col-md-7 mb-3 mb-md-0">
                                     <input type="text" className="form-control py-3" id="coupon" placeholder="Coupon Code" />
                                 </div>
-                                <div className="col-md-4">
+                                <div className="col-md-5">
                                     <button className="btn btn-black">Apply Coupon</button>
                                 </div>
                             </div>
@@ -172,21 +192,15 @@ export default function Cart() {
                                             <span className="text-black">Subtotal</span>
                                         </div>
                                         <div className="col-md-6 text-right">
-                                            <strong className="text-black">$230.00</strong>
-                                        </div>
-                                    </div>
-                                    <div className="row mb-5">
-                                        <div className="col-md-6">
-                                            <span className="text-black">Total</span>
-                                        </div>
-                                        <div className="col-md-6 text-right">
-                                            <strong className="text-black">$230.00</strong>
+                                            <strong className="text-black">${subtotal}</strong>
                                         </div>
                                     </div>
 
                                     <div className="row">
                                         <div className="col-md-12">
-                                            <button className="btn btn-black btn-lg py-3 btn-block" onclick="window.location='checkout.html'">Proceed To Checkout</button>
+                                            <NavLink to={`/checkout`}>
+                                                <button className="btn btn-black btn-lg py-2 btn-block" onclick="window.location='checkout.html'">Proceed To Checkout</button>
+                                            </NavLink>
                                         </div>
                                     </div>
                                 </div>

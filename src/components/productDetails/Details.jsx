@@ -239,7 +239,7 @@ export default function Details({ productData, pName }) {
                                             </div>
                                         </div>
                                     </div>
-                                    <NavLink to="/checkout" className="btn btn-sm mx-2  btn-warning shadow-0"> Buy now </NavLink >
+                                    <NavLink to={`/checkout/${data.id}`} className="btn btn-sm mx-2  btn-warning shadow-0"> Buy now </NavLink >
                                     <button onClick={() => SetCartItm(data.id)} className="btn btn-sm   btn-primary shadow-0">{cart.ids.includes(data.id) ? 'Remove from cart' : 'Add to cart'} <i className="me-1 fa fa-shopping-basket mx-2"></i> </button >
                                     {/* <button href="#" className="btn btn-sm mx-2  btn-light border border-secondary py-2 icon-hover px-3"> <i className="me-1 fa fa-heart fa-lg"></i> Save </button > */}
                                 </div>

@@ -1,9 +1,45 @@
-import React from 'react'
+import React, { useContext, useEffect, useState } from 'react'
+import CartContex from '../contex/CartContex'
+import { useParams } from 'react-router-dom';
 
 export default function Checkout() {
+    const { cart, setCart } = useContext(CartContex);
+    const [total, setTotal] = useState(0);
+    const [buyNow, setBuyNow] = useState('');
+    const [productData, setProductDate] = useState([])
+    const { id } = useParams();
     useEffect(() => {
+        fetch('https://shubhamnegi2.github.io/textAPi/api/product.json')
+            .then((res) => res.json())
+            .then(data => setProductDate(data))
         window.scrollTo(0, 0);
-      }, [])
+
+
+    }, [])
+    useEffect(() => {
+        cart.quantities.map((item, index) => {
+            const product = productData.find(p => p.id === item.id);
+            if (!product) return null;
+            setTotal(prev => prev + (parseFloat(product.price) * parseFloat(item.quantity)));
+        })
+
+        if (id) {
+            const product = productData.find(p => p.id == id);
+            if (product) {
+                setBuyNow(
+                    <tr key={'f8'}>
+                        <td>{product.title.slice(0, 20)} </td>
+                        <td>${product.price}</td>
+                    </tr>
+                )
+            } else {
+                setBuyNow('')
+            }
+        }
+        console.log('buyNow', buyNow);
+
+
+    }, [cart, productData])
     return (
         <>
             <div className="untree_co-section">
@@ -18,7 +54,7 @@ export default function Checkout() {
                     <div className="row">
                         <div className="col-md-6 mb-5 mb-md-0">
                             <h2 className="h3 mb-3 text-black">Billing Details</h2>
-                            <div className="p-3 p-lg-5 border bg-white" style={{borderRadius:'5px'}}>
+                            <div className="p-3 p-lg-5 border bg-white" style={{ borderRadius: '5px' }}>
                                 <div className="form-group mb-4 ">
                                     <label for="c_country" className="text-black">Country <span className="text-danger">*</span></label>
                                     <select id="c_country" className="form-control">
@@ -85,7 +121,7 @@ export default function Checkout() {
                                 </div>
 
                                 <div className="form-group mb-4 ">
-                                    <label for="c_create_account" className="text-black" data-bs-toggle="collapse" href="#create_an_account" role="button" aria-expanded="false" aria-controls="create_an_account"><input type="checkbox" value="1" id="c_create_account"/> Create an account?</label>
+                                    <label for="c_create_account" className="text-black" data-bs-toggle="collapse" href="#create_an_account" role="button" aria-expanded="false" aria-controls="create_an_account"><input type="checkbox" value="1" id="c_create_account" /> Create an account?</label>
                                     <div className="collapse" id="create_an_account">
                                         <div className="py-2 mb-4">
                                             <p className="mb-3">Create an account by entering the information below. If you are a returning customer please login at the top of the page.</p>
@@ -99,7 +135,7 @@ export default function Checkout() {
 
 
                                 <div className="form-group mb-4 ">
-                                    <label for="c_ship_different_address" className="text-black" data-bs-toggle="collapse" href="#ship_different_address" role="button" aria-expanded="false" aria-controls="ship_different_address"><input type="checkbox" value="1" id="c_ship_different_address"/> Ship To A Different Address?</label>
+                                    <label for="c_ship_different_address" className="text-black" data-bs-toggle="collapse" href="#ship_different_address" role="button" aria-expanded="false" aria-controls="ship_different_address"><input type="checkbox" value="1" id="c_ship_different_address" /> Ship To A Different Address?</label>
                                     <div className="collapse" id="ship_different_address">
                                         <div className="py-2">
 
@@ -187,7 +223,7 @@ export default function Checkout() {
                             <div className="row mb-5">
                                 <div className="col-md-12">
                                     <h2 className="h3 mb-3 text-black">Coupon Code</h2>
-                                    <div className="p-3 p-lg-5 border bg-white" style={{borderRadius:'5px'}}>
+                                    <div className="p-3 p-lg-5 border bg-white" style={{ borderRadius: '5px' }}>
 
                                         <label for="c_code" className="text-black mb-3">Enter your coupon code if you have one</label>
                                         <div className="input-group w-75 couponcode-wrap">
@@ -204,28 +240,35 @@ export default function Checkout() {
                             <div className="row mb-5">
                                 <div className="col-md-12">
                                     <h2 className="h3 mb-3 text-black">Your Order</h2>
-                                    <div className="p-3 p-lg-5 border bg-white" style={{borderRadius:'5px'}}>
+                                    <div className="p-3 p-lg-5 border bg-white" style={{ borderRadius: '5px' }}>
                                         <table className="table site-block-order-table mb-5">
                                             <thead>
                                                 <tr><th>Product</th>
                                                     <th>Total</th>
                                                 </tr></thead>
                                             <tbody>
-                                                <tr>
-                                                    <td>Top Up T-Shirt <strong className="mx-2">x</strong> 1</td>
-                                                    <td>$250.00</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Polo Shirt <strong className="mx-2">x</strong>   1</td>
-                                                    <td>$100.00</td>
-                                                </tr>
+                                                {buyNow == '' ?
+                                                    cart.quantities.map((item, index) => {
+                                                        const product = productData.find(p => p.id === item.id);
+                                                        if (!product) return null;
+                                                        return (
+                                                            <tr key={index + 'f8'}>
+                                                                <td>{product.title.slice(0, 20)} <strong>x {item.quantity}</strong></td>
+                                                                <td>${product.price} <strong>x {item.quantity}</strong> <br /> <hr /> {(product.price * item.quantity).toFixed(2)}</td>
+                                                            </tr>
+                                                        );
+                                                    }) : buyNow
+
+                                                }
+
+
                                                 <tr>
                                                     <td className="text-black font-weight-bold"><strong>Cart Subtotal</strong></td>
-                                                    <td className="text-black">$350.00</td>
+                                                    <td className="text-black">${total.toFixed(2)}</td>
                                                 </tr>
                                                 <tr>
                                                     <td className="text-black font-weight-bold"><strong>Order Total</strong></td>
-                                                    <td className="text-black font-weight-bold"><strong>$350.00</strong></td>
+                                                    <td className="text-black font-weight-bold"><strong>${total.toFixed(2)}</strong></td>
                                                 </tr>
                                             </tbody>
                                         </table>
@@ -261,7 +304,7 @@ export default function Checkout() {
                                         </div>
 
                                         <div className="form-group">
-                                            <button className="btn btn-black btn-lg py-3 btn-block" onclick="window.location='thankyou.html'">Place Order</button>
+                                            <button className="btn btn-black btn-lg py-1 btn-block" onclick="window.location='thankyou.html'">Place Order</button>
                                         </div>
 
                                     </div>
