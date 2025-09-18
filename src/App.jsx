@@ -21,6 +21,7 @@ const Router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<Layout />}>
       <Route path='' element={<Home />} />
+      <Route path='/react-furni' element={<Home />} />
       <Route path='/about' element={<About />} />
       <Route path='/productDetails/:productId' element={<ProductDetails />} />
       <Route path='/Cart' element={<Cart />} />
@@ -34,7 +35,10 @@ const Router = createBrowserRouter(
       <Route path='/sign-up' element={<SignUp />} />
       <Route path='*' element={<Error />} />
     </Route>
-  )
+  ),
+  {
+    basename: "/react-furni",   // 👈 यह असली fix है
+  }
 )
 
 
@@ -42,7 +46,7 @@ const Router = createBrowserRouter(
 function App() {
 
   return (
-    <RouterProvider router={Router} />
+    <RouterProvider router={Router}  basename="/react-furni"/>
   )
 }
 
